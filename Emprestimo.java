@@ -6,22 +6,22 @@ public class Emprestimo {
     public static void main(String[] args) {
 
 
-        Scanner dados_empregado = new Scanner(System.in);
+        Scanner dadosEmpregado = new Scanner(System.in);
         System.out.print("Digite o salário do(a) empregado(a): R$");
-        float salario_funcionario = dados_empregado.nextFloat();
+        float salarioFuncionario = dadosEmpregado.nextFloat();
 
 
 
         System.out.print("Qual o valor da parcela? R$");
-        var parcela_emprestimo = dados_empregado.nextFloat();
+        var parcelaEmprestimo = dadosEmpregado.nextFloat();
 
 
 
         double PERCENTUAL = (30./100.);
-        var limite_salario = salario_funcionario * PERCENTUAL;
+        var limiteSalario = salarioFuncionario * PERCENTUAL;
 
 
-            if (parcela_emprestimo > limite_salario){
+            if (parcelaEmprestimo > limiteSalario){
 
 
             System.out.println("O empréstimo não pode ser concedido, pois ultrapassa o limite de 30% do salário do empregado.");
