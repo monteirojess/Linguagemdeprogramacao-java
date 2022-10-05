@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class CreditoFuncionarios {
+public class Emprestimo {
         public static void main(String[] args) {
 
 
             Scanner dadosEmpregado = new Scanner(System.in);
-            System.out.print("Digite o sal·rio do(a) empregado(a): R$");
+            System.out.print("Digite o sal√°rio do(a) empregado(a): R$");
             float salarioFuncionario = dadosEmpregado.nextFloat();
 
 
@@ -22,10 +22,10 @@ public class CreditoFuncionarios {
             if (parcelaEmprestimo > limiteSalario){
 
 
-                System.out.println("O emprÈstimo n„o pode ser concedido, pois ultrapassa o limite de 30% do sal·rio do empregado.");
+                System.out.println("O empr√©stimo n√£o pode ser concedido, pois ultrapassa o limite de 30% do sal√°rio do empregado.");
 
             } else{
-                System.out.println("ParabÈns o seu emprÈstimo foi APROVADO !");
+                System.out.println("Parab√©ns o seu empr√©stimo foi APROVADO !");
             }
 
         }
